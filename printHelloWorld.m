@@ -1,2 +1,3 @@
-function printHelloWorld()
-    fprintf('Hello World\n');
+function printHelloWorld(message)
+  
+    fprintf('%s\n',message);
